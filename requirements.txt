@@ -1,0 +1,27 @@
+# ── Temel bilimsel yığın ───────────────────────────────────────────────────────
+numpy>=1.24.0
+scipy>=1.10.0
+
+# ── Görselleştirme ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+
+# ── Makine öğrenmesi ───────────────────────────────────────────────────────────
+scikit-learn>=1.3.0
+
+# ── Çizgeler (Ders 9) ──────────────────────────────────────────────────────────
+networkx>=3.1
+
+# ── Jupyter ortamı ─────────────────────────────────────────────────────────────
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.0.0
+
+# ── Yardımcı araçlar ───────────────────────────────────────────────────────────
+tqdm>=4.65.0
+pandas>=2.0.0
+
+# ── İsteğe bağlı: yalnızca alıştırmaları GPU'ya taşımak için ───────────────────
+# Bu depodaki her defter yalnızca NumPy ile CPU üzerinde çalışır.
+torch>=2.1.0
+torchvision>=0.16.0
